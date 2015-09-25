@@ -32,7 +32,7 @@ class FooTest < Minitest::Test
     assert true
   end
 
-  check_profile_regression_on :test_thing
+  check_performance_regression_on :test_thing
 end
 ```
 
